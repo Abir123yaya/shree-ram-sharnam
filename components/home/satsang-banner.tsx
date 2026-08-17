@@ -11,8 +11,8 @@ export function SatsangBanner() {
           <div className="grid lg:grid-cols-2">
             <div className="relative min-h-64 lg:min-h-full">
               <Image
-                src="/images/satsang.png"
-                alt="Devotees gathered for satsang in the prayer hall"
+                src="/images/satsang-hall.png"
+                alt="The Shree Amritvani Satsang Hall in New York with portraits of the revered saints on the stage"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
