@@ -1,9 +1,8 @@
 import type { Metadata } from "next"
 import { CalendarClock, Clock, MapPin } from "lucide-react"
 import { PageHeader } from "@/components/page-header"
-import { SectionHeading } from "@/components/section-heading"
 import { CTAButton } from "@/components/cta-button"
-import { events, weeklyEvent, siteConfig } from "@/lib/site-config"
+import { weeklyEvent, siteConfig } from "@/lib/site-config"
 
 export const metadata: Metadata = {
   title: "Events",
@@ -58,34 +57,6 @@ export default function EventsPage() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Annual events */}
-      <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
-        <SectionHeading
-          eyebrow="Through the Year"
-          title="Festivals & Special Occasions"
-          description="We come together throughout the year to celebrate the festivals that enrich our devotional life. Dates follow the Hindu lunar calendar — please contact us to confirm each year."
-        />
-        <ol className="relative mt-12 space-y-8 border-l-2 border-primary/20 pl-6 sm:pl-8">
-          {events.map((event) => (
-            <li key={event.title} className="relative">
-              <span
-                className="absolute -left-[calc(1.5rem+7px)] top-1.5 size-3.5 rounded-full border-2 border-background bg-primary sm:-left-[calc(2rem+7px)]"
-                aria-hidden="true"
-              />
-              <article className="rounded-2xl border border-border bg-card p-6 shadow-sm transition-shadow hover:shadow-md">
-                <p className="text-sm font-semibold uppercase tracking-wide text-primary">
-                  {event.when}
-                </p>
-                <h3 className="mt-1 font-serif text-2xl font-semibold text-foreground">
-                  {event.title}
-                </h3>
-                <p className="mt-2 leading-relaxed text-muted-foreground">{event.description}</p>
-              </article>
-            </li>
-          ))}
-        </ol>
       </section>
     </>
   )
