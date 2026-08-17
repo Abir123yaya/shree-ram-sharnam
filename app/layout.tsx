@@ -78,8 +78,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`light bg-background ${nunito.variable} ${cormorant.variable}`}>
-      <body className="font-sans antialiased">
-        {children}
+      <body className="flex min-h-dvh flex-col font-sans antialiased">
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
