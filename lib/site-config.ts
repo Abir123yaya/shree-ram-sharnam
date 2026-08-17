@@ -49,6 +49,47 @@ export const siteConfig = {
   },
 } as const
 
+export const weeklyEvent = {
+  title: "Weekly Satsang & Path",
+  day: "Every Saturday",
+  time: "9:30 AM – 11:00 AM",
+  description:
+    "Our weekly gathering for collective prayer, recitation of the Amrit Vani, bhajans, and satsang. All are warmly welcome — no prior experience needed.",
+}
+
+export const events = [
+  {
+    title: "Ram Navami Celebration",
+    when: "Spring — Chaitra Shukla Navami",
+    description:
+      "A joyous celebration of the birth of Lord Ram, with special path, kirtan, and prasad shared among the sangat.",
+  },
+  {
+    title: "Guru Purnima",
+    when: "Summer — Ashadha Purnima",
+    description:
+      "A day of gratitude and reverence to our revered gurus, with devotional readings and reflections on their teachings.",
+  },
+  {
+    title: "Janmashtami",
+    when: "Late Summer",
+    description:
+      "Celebrating the birth of Lord Krishna with bhajans, satsang, and community festivities.",
+  },
+  {
+    title: "Diwali & Annual Havan",
+    when: "Autumn",
+    description:
+      "The festival of lights observed with a special havan, prayers for peace and prosperity, and a shared community meal.",
+  },
+] as const
+
+export const galleryImages = [
+  { src: "/images/hero.png", alt: "Revered saints of Shree Ram Sharnam beneath the sacred Ram sunburst" },
+  { src: "/images/satsang.png", alt: "Devotees gathered in the prayer hall for satsang" },
+  { src: "/images/diyas.png", alt: "Rows of lit brass oil lamps with marigold flowers" },
+] as const
+
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },

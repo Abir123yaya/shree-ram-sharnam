@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, Flame } from "lucide-react"
+import Image from "next/image"
+import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { navLinks, siteConfig } from "@/lib/site-config"
 import { CTAButton } from "@/components/cta-button"
@@ -41,9 +42,14 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-2.5 rounded-md outline-none focus-visible:ring-4 focus-visible:ring-primary/40"
         >
-          <span className="flex size-9 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-sm">
-            <Flame className="size-5" aria-hidden="true" />
-          </span>
+          <Image
+            src="/images/logo.png"
+            alt=""
+            width={44}
+            height={44}
+            className="size-11 shrink-0"
+            priority
+          />
           <span className="font-serif text-xl font-semibold leading-none text-foreground">
             {siteConfig.shortName}
           </span>

@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Flame, MapPin, Mail, CalendarClock } from "lucide-react"
+import Image from "next/image"
+import { MapPin, Mail, CalendarClock } from "lucide-react"
 import { navLinks, siteConfig } from "@/lib/site-config"
 
 export function Footer() {
@@ -10,9 +11,13 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5">
-              <span className="flex size-9 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                <Flame className="size-5" aria-hidden="true" />
-              </span>
+              <Image
+                src="/images/logo.png"
+                alt=""
+                width={44}
+                height={44}
+                className="size-11 shrink-0"
+              />
               <span className="font-serif text-xl font-semibold text-foreground">
                 {siteConfig.name}
               </span>
