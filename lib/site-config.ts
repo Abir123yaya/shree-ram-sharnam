@@ -84,17 +84,11 @@ export const events = [
   },
 ] as const
 
-export const galleryImages = [
-  { src: "/images/hero.png", alt: "Revered saints of Shree Ram Sharnam beneath the sacred Ram sunburst" },
-  { src: "/images/satsang.png", alt: "Devotees gathered in the prayer hall for satsang" },
-  { src: "/images/diyas.png", alt: "Rows of lit brass oil lamps with marigold flowers" },
-] as const
 
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Events", href: "/events" },
-  { label: "Gallery", href: "/gallery" },
   { label: "Donate", href: "/donate" },
   { label: "Contact", href: "/contact" },
 ] as const
