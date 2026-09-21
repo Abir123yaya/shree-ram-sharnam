@@ -1,13 +1,13 @@
 import type { Metadata } from "next"
-import { CalendarClock, Clock, MapPin } from "lucide-react"
+import { CalendarClock, Clock, MapPin, Sparkles } from "lucide-react"
 import { PageHeader } from "@/components/page-header"
 import { CTAButton } from "@/components/cta-button"
-import { weeklyEvent, siteConfig } from "@/lib/site-config"
+import { satsangCalendar2026, weeklyEvent, siteConfig } from "@/lib/site-config"
 
 export const metadata: Metadata = {
   title: "Events",
   description:
-    "Join our weekly Saturday satsang and annual festival celebrations at Shree Ram Sharnam New Hyde Park.",
+    "Join weekly Saturday satsang, special events, and Purnima Jaap at Shree Ram Sharnam New Hyde Park in 2026.",
 }
 
 export default function EventsPage() {
@@ -54,6 +54,61 @@ export default function EventsPage() {
             </div>
             <div className="flex md:justify-end">
               <CTAButton href="/contact">Plan Your Visit</CTAButton>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+        <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 sm:p-8">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">New Year Satsang</p>
+          <div className="mt-3 grid gap-4 sm:grid-cols-[1fr_auto] sm:items-end">
+            <div>
+              <h2 className="font-serif text-2xl font-semibold text-foreground">{satsangCalendar2026.newYear.date}</h2>
+              <p className="mt-2 text-muted-foreground">{satsangCalendar2026.newYear.details}</p>
+            </div>
+            <p className="font-semibold text-foreground">{satsangCalendar2026.newYear.time}</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+        <div className="mb-10 flex items-end justify-between gap-4">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">2026 Calendar</p>
+            <h2 className="mt-2 font-serif text-3xl font-semibold text-foreground sm:text-4xl">Special Events Satsang</h2>
+          </div>
+          <Sparkles className="hidden size-8 text-primary/60 sm:block" aria-hidden="true" />
+        </div>
+        <div className="grid gap-5 md:grid-cols-2">
+          {satsangCalendar2026.specialEvents.map((event) => (
+            <article key={event.title} className="rounded-2xl border border-border bg-card p-6 shadow-sm">
+              <p className="text-sm font-semibold text-primary">{event.date}</p>
+              <h3 className="mt-2 font-serif text-xl font-semibold text-foreground">{event.title}</h3>
+              <p className="mt-3 flex items-center gap-2 text-sm text-muted-foreground"><Clock className="size-4" aria-hidden="true" />{event.time}</p>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Shree Amritvani Ji Sankirtan, Granth Path, Bhajan, Maharaj Ji&apos;s Pravachan, Pushpanjali followed by one hour Jaap.</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-secondary/40 py-16 sm:py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Monthly Devotion</p>
+              <h2 className="mt-2 font-serif text-3xl font-semibold text-foreground">2026 Purnima Jaap</h2>
+              <p className="mt-4 leading-relaxed text-muted-foreground">Purnima Jaap timing is 5:00 PM – 7:00 PM unless noted otherwise.</p>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
+              <div className="grid grid-cols-[1fr_auto_auto] gap-4 border-b border-border bg-primary/5 px-5 py-3 text-sm font-semibold text-foreground">
+                <span>Date</span><span>Day</span><span>Time</span>
+              </div>
+              <div className="divide-y divide-border">
+                {satsangCalendar2026.purnimaJaap.map(([date, day, time]) => (
+                  <div key={date} className="grid grid-cols-[1fr_auto_auto] gap-4 px-5 py-3 text-sm text-muted-foreground"><span>{date}</span><span>{day}</span><span className="text-right">{time}</span></div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
