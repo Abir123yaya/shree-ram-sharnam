@@ -35,9 +35,6 @@ export function Hero() {
             <CTAButton href="/about" size="lg">
               Learn About Us
             </CTAButton>
-            <CTAButton href="/contact" size="lg" variant="secondary">
-              Plan Your Visit
-            </CTAButton>
           </div>
 
           {/* Key facts */}
