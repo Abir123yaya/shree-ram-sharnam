@@ -85,6 +85,66 @@ export const events = [
 ] as const
 
 
+export const satsangCalendar2026 = {
+  weekly: {
+    title: "Weekly Satsang",
+    schedule: "Every Saturday · 9:30 AM – 11:00 AM",
+    details: "Shree Amritvani Ji Sankirtan, Granth Path, Bhajans, & Maharaj Ji's Pravachan",
+  },
+  newYear: {
+    date: "January 1, 2026 (Thursday)",
+    time: "9:30 AM – 11:00 AM",
+    details: "Shree Amritvani Ji Sankirtan, Bhajan, & Maharaj Ji's Pravachan",
+  },
+  specialEvents: [
+    {
+      date: "March 15, 2026 (Sunday)",
+      title: "Avtaran Diwas — Param Pujya Dr. Vishwamitter Ji Maharaj (1940)",
+      time: "To be announced",
+    },
+    {
+      date: "April 2, 2026 (Thursday)",
+      title: "Chaitra Poornima — Avtaran Diwas of Shree Swami Satyanand Ji Maharaj (1868)",
+      time: "April 4, 2026 (Saturday) · 9:30 AM – 12:00 PM",
+    },
+    {
+      date: "July 2, 2026 (Thursday)",
+      title: "Nirvaan Diwas — Param Pujya Shree Vishwamitter Ji Maharaj (2012)",
+      time: "July 4, 2026 (Saturday) · 9:30 AM – 12:00 PM",
+    },
+    {
+      date: "July 29, 2026 (Wednesday)",
+      title: "Guru Poornima / Vyas Poornima & Nirvaan Diwas — Param Pujya Shree Prem Ji Maharaj (1993)",
+      time: "August 1, 2026 (Saturday) · 9:30 AM – 12:00 PM",
+    },
+    {
+      date: "October 2, 2026 (Friday)",
+      title: "Avtaran Diwas — Param Pujya Shree Prem Ji Maharaj (1920)",
+      time: "October 3, 2026 (Saturday) · 9:30 AM – 12:00 PM",
+    },
+    {
+      date: "November 13, 2026 (Friday)",
+      title: "Nirvaan Diwas — Param Pujya Shree Swami Satyanand Ji Maharaj (1960)",
+      time: "November 14, 2026 (Saturday) · 9:30 AM – 12:00 PM",
+    },
+  ],
+  purnimaJaap: [
+    ["January 3, 2026", "Saturday", "11:00 AM – 12:00 PM"],
+    ["February 1, 2026", "Sunday", "5:00 PM – 7:00 PM"],
+    ["March 3, 2026", "Tuesday", "5:00 PM – 7:00 PM"],
+    ["April 2, 2026", "Thursday", "5:00 PM – 7:00 PM"],
+    ["May 1, 2026", "Friday", "5:00 PM – 7:00 PM"],
+    ["May 30, 2026", "Saturday", "11:00 AM – 12:00 PM"],
+    ["June 29, 2026", "Monday", "5:00 PM – 7:00 PM"],
+    ["July 29, 2026", "Wednesday", "5:00 PM – 7:00 PM"],
+    ["August 28, 2026", "Friday", "5:00 PM – 7:00 PM"],
+    ["September 26, 2026", "Saturday", "11:00 AM – 12:00 PM"],
+    ["October 26, 2026", "Monday", "5:00 PM – 7:00 PM"],
+    ["November 24, 2026", "Tuesday", "5:00 PM – 7:00 PM"],
+    ["December 23, 2026", "Wednesday", "5:00 PM – 7:00 PM"],
+  ],
+} as const
+
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
