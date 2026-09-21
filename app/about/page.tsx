@@ -3,7 +3,6 @@ import Image from "next/image"
 import { BookOpen, HandHeart, Music, Sun } from "lucide-react"
 import { PageHeader } from "@/components/page-header"
 import { SectionHeading } from "@/components/section-heading"
-import { CTAButton } from "@/components/cta-button"
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -86,9 +85,6 @@ export default function AboutPage() {
                 first time, you will find a place of peace, belonging, and divine
                 grace here.
               </p>
-            </div>
-            <div className="mt-8">
-              <CTAButton href="/contact">Plan Your Visit</CTAButton>
             </div>
           </div>
         </div>

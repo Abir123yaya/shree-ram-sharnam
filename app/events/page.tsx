@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import { CalendarClock, Clock, MapPin, Sparkles } from "lucide-react"
 import { PageHeader } from "@/components/page-header"
-import { CTAButton } from "@/components/cta-button"
 import { satsangCalendar2026, weeklyEvent, siteConfig } from "@/lib/site-config"
 
 export const metadata: Metadata = {
@@ -51,9 +50,6 @@ export default function EventsPage() {
                   <dd className="font-medium text-foreground">{siteConfig.address.line1}</dd>
                 </div>
               </dl>
-            </div>
-            <div className="flex md:justify-end">
-              <CTAButton href="/contact">Plan Your Visit</CTAButton>
             </div>
           </div>
         </div>
