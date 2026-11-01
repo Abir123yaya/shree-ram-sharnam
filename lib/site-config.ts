@@ -4,11 +4,11 @@
 // -----------------------------------------------------------------------------
 
 export const siteConfig = {
-  name: "Shree Ram Sharnam New Hyde Park",
+  name: "Shree Ram Sharnam New York",
   shortName: "Shree Ram Sharnam",
   tagline: "Prayer • Devotion • Satsang",
   description:
-    "Shree Ram Sharnam New Hyde Park — a place for prayer, devotion, satsang, and spiritual growth. Join us every Saturday from 9:30 AM to 11:00 AM.",
+    "Shree Ram Sharnam New York — a place for prayer, devotion, satsang, and spiritual growth. Join us every Saturday from 9:30 AM to 11:00 AM.",
 
   address: {
     line1: "107 Marcus Avenue",

@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/section-heading"
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Shree Ram Sharnam New Hyde Park — our devotion to Ram, our spiritual tradition, and the satsang we gather for together.",
+    "Learn about Shree Ram Sharnam New York — our devotion to Ram, our spiritual tradition, and the satsang we gather for together.",
 }
 
 const practices = [
@@ -39,7 +39,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About Us"
         title="Rooted in Devotion to Ram"
-        description="Shree Ram Sharnam New Hyde Park is a spiritual sanctuary dedicated to the loving remembrance of Ram and the timeless teachings of our revered gurus."
+        description="Shree Ram Sharnam New York is a spiritual sanctuary dedicated to the loving remembrance of Ram and the timeless teachings of our revered gurus."
       />
 
       {/* Story */}
@@ -75,7 +75,7 @@ export default function AboutPage() {
                 to all, requiring nothing but a sincere and open heart.
               </p>
               <p>
-                The New Hyde Park satsang carries this sacred tradition forward
+                The New York satsang carries this sacred tradition forward
                 in the New York area. Each week, devotees gather to pray,
                 sing, meditate, and listen to the teachings of the gurus,
                 united in remembrance and faith.
