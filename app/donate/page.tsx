@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config"
 export const metadata: Metadata = {
   title: "Donate",
   description:
-    "Support Shree Ram Sharnam New Hyde Park. Your generous seva helps sustain our satsang, programs, and community.",
+    "Support Shree Ram Sharnam New Hyde Park. Your generous seva helps sustain our satsang, spiritual programs, and ashram.",
 }
 
 const impact = [
@@ -36,7 +36,7 @@ export default function DonatePage() {
       <PageHeader
         eyebrow="Seva & Generosity"
         title="Support Our Ashram"
-        description="Your contribution is a form of seva — selfless service that sustains our community and keeps the light of devotion burning."
+        description="Your contribution is a form of seva — selfless service that sustains the satsang and keeps the light of devotion burning."
       />
 
       <section className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">

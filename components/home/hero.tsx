@@ -26,8 +26,8 @@ export function Hero() {
             <span className="block text-primary">New Hyde Park</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
-            A spiritual home for prayer, devotion, and community. Come chant the
-            sacred name of Ram, find inner peace, and grow together in the light
+            A sacred place for prayer, devotion, and satsang. Come chant the
+            holy name of Ram, find inner peace, and deepen your remembrance
             of divine grace.
           </p>
 
@@ -74,7 +74,7 @@ export function Hero() {
           </dl>
         </div>
 
-        {/* Portrait of the revered saints */}
+        {/* Portrait of the revered gurus */}
         <div className="relative mx-auto w-full max-w-lg">
           <div
             aria-hidden="true"
@@ -83,7 +83,7 @@ export function Hero() {
           <div className="overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10 ring-1 ring-black/5">
             <Image
               src="/images/saints.png"
-              alt="Sacred portrait of the revered saints of Shree Ram Sharnam beneath the divine name Ram"
+              alt="Sacred portrait of the revered gurus of Shree Ram Sharnam beneath the divine name Ram"
               width={1050}
               height={880}
               priority
