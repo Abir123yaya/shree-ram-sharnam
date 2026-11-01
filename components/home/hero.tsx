@@ -23,7 +23,7 @@ export function Hero() {
           </span>
           <h1 className="mt-6 text-balance font-serif text-4xl font-bold leading-[1.05] text-foreground sm:text-5xl lg:text-6xl">
             Shree Ram Sharnam
-            <span className="block text-primary">New Hyde Park</span>
+            <span className="block text-primary">New York</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
             A sacred place for prayer, devotion, and satsang. Come chant the

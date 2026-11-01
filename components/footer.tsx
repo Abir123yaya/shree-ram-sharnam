@@ -72,7 +72,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-border pt-6 text-center text-sm text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+            &copy; {new Date().getFullYear()} Shree Ram Sharnam Incorporation. All rights reserved.
           </p>
         </div>
       </div>

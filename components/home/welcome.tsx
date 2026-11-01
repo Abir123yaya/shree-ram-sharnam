@@ -26,7 +26,7 @@ export function Welcome() {
         <SectionHeading
           eyebrow="Welcome"
           title="A Sacred Space to Come Home To"
-          description="Shree Ram Sharnam New Hyde Park carries forward a timeless tradition of devotion to Ram. Whether you are a lifelong devotee or simply seeking peace, our doors are open to you."
+          description="Shree Ran Sharnam New York carries forward a timeless tradition of devotion to Ram. Whether you are a lifelong devotee or simply seeking peace, our doors are open to you."
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">

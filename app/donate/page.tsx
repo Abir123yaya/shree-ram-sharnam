@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config"
 export const metadata: Metadata = {
   title: "Donate",
   description:
-    "Support Shree Ram Sharnam New Hyde Park. Your generous seva helps sustain our satsang, spiritual programs, and ashram.",
+    "Support Shree Ran Sharnam New York. Your generous seva helps sustain our satsang, spiritual programs, and ashram.",
 }
 
 const impact = [
@@ -49,7 +49,7 @@ export default function DonatePage() {
           </h2>
           <p className="mx-auto mt-4 max-w-2xl leading-relaxed text-muted-foreground">
             We are raising funds through GoFundMe to support the ongoing activities and upkeep of
-            Shree Ram Sharnam New Hyde Park. Every contribution, big or small, is deeply appreciated
+            Shree Ran Sharnam New York. Every contribution, big or small, is deeply appreciated
             and used with care.
           </p>
 
