@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/section-heading"
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Shree Ran Sharnam New York — our devotion to Ram, our spiritual tradition, and the satsang we gather for together.",
+    "Learn about Shree Ram Sharnam New York — our devotion to Ram, our spiritual tradition, and the satsang we gather for together.",
 }
 
 const practices = [
@@ -39,7 +39,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About Us"
         title="Rooted in Devotion to Ram"
-        description="Shree Ran Sharnam New York is a spiritual sanctuary dedicated to the loving remembrance of Ram and the timeless teachings of our revered gurus."
+        description="Shree Ram Sharnam New York is a spiritual sanctuary dedicated to the loving remembrance of Ram and the timeless teachings of our revered gurus."
       />
 
       {/* Story */}

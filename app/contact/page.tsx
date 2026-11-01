@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config"
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Shree Ran Sharnam New York. Find our address, phone numbers, email, and satsang schedule.",
+    "Get in touch with Shree Ram Sharnam New York. Find our address, phone numbers, email, and satsang schedule.",
 }
 
 export default function ContactPage() {
@@ -104,7 +104,7 @@ export default function ContactPage() {
             {/* Map */}
             <div className="mt-8 overflow-hidden rounded-2xl border border-border shadow-sm">
               <iframe
-                title="Map showing Shree Ran Sharnam New York location"
+                title="Map showing Shree Ram Sharnam New York location"
                 src={siteConfig.maps.embed}
                 width="100%"
                 height="300"

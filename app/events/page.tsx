@@ -6,7 +6,7 @@ import { satsangCalendar2026, weeklyEvent, siteConfig } from "@/lib/site-config"
 export const metadata: Metadata = {
   title: "Events",
   description:
-    "Join weekly Saturday satsang, special events, and Purnima Jaap at Shree Ran Sharnam New York in 2026.",
+    "Join weekly Saturday satsang, special events, and Purnima Jaap at Shree Ram Sharnam New York in 2026.",
 }
 
 export default function EventsPage() {
