@@ -74,7 +74,7 @@ export function Hero() {
           </dl>
         </div>
 
-        {/* Portrait of the revered saints */}
+        {/* Portrait of the revered gurus */}
         <div className="relative mx-auto w-full max-w-lg">
           <div
             aria-hidden="true"
@@ -83,7 +83,7 @@ export function Hero() {
           <div className="overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10 ring-1 ring-black/5">
             <Image
               src="/images/saints.png"
-              alt="Sacred portrait of the revered saints of Shree Ram Sharnam beneath the divine name Ram"
+              alt="Sacred portrait of the revered gurus of Shree Ram Sharnam beneath the divine name Ram"
               width={1050}
               height={880}
               priority

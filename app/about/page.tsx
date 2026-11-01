@@ -39,7 +39,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About Us"
         title="Rooted in Devotion to Ram"
-        description="Shree Ram Sharnam New Hyde Park is a spiritual sanctuary dedicated to the loving remembrance of Ram and the timeless teachings of our revered saints."
+        description="Shree Ram Sharnam New Hyde Park is a spiritual sanctuary dedicated to the loving remembrance of Ram and the timeless teachings of our revered gurus."
       />
 
       {/* Story */}
@@ -53,7 +53,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-[2rem] border border-border bg-card shadow-xl ring-1 ring-black/5">
               <Image
                 src="/images/saints.png"
-                alt="Portrait of the revered saints of Shree Ram Sharnam"
+                alt="Portrait of the revered gurus of Shree Ram Sharnam"
                 width={1050}
                 height={880}
                 className="h-auto w-full"
@@ -77,7 +77,7 @@ export default function AboutPage() {
               <p>
                 The New Hyde Park satsang carries this sacred tradition forward
                 in the New York area. Each week, devotees gather to pray,
-                sing, meditate, and listen to the teachings of the saints,
+                sing, meditate, and listen to the teachings of the gurus,
                 united in remembrance and faith.
               </p>
               <p>

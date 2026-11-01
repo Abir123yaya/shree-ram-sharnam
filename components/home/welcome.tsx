@@ -15,7 +15,7 @@ const pillars = [
   {
     icon: Sparkles,
     title: "Inner Peace",
-    text: "Discover stillness, clarity, and lasting joy rooted in the teachings of the saints.",
+    text: "Discover stillness, clarity, and lasting joy rooted in the teachings of the gurus.",
   },
 ]
 
