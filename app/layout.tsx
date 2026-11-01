@@ -1,23 +1,9 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Nunito, Cormorant_Garamond } from 'next/font/google'
 import { siteConfig } from '@/lib/site-config'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import './globals.css'
-
-const nunito = Nunito({
-  subsets: ['latin'],
-  variable: '--font-nunito',
-  display: 'swap',
-})
-
-const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-cormorant',
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   title: {
@@ -64,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`light bg-background ${nunito.variable} ${cormorant.variable}`}>
+    <html lang="en" className="light bg-background">
       <body className="flex min-h-dvh flex-col font-sans antialiased">
         <Navbar />
         <main className="flex-1">{children}</main>
