@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/section-heading"
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Shree Ram Sharnam New Hyde Park — our devotion to Ram, our spiritual tradition, and the community we nurture together.",
+    "Learn about Shree Ram Sharnam New Hyde Park — our devotion to Ram, our spiritual tradition, and the satsang we gather for together.",
 }
 
 const practices = [
@@ -29,7 +29,7 @@ const practices = [
   {
     icon: HandHeart,
     title: "Seva & Service",
-    text: "Selfless service to the community as a living expression of devotion.",
+    text: "Selfless service as a living expression of devotion and surrender.",
   },
 ]
 
@@ -75,10 +75,10 @@ export default function AboutPage() {
                 to all, requiring nothing but a sincere and open heart.
               </p>
               <p>
-                Our New Hyde Park community carries this sacred tradition forward
-                in the New York area. Each week, devotees come together to pray,
-                sing, meditate, and support one another, creating a warm extended
-                family united in faith.
+                The New Hyde Park satsang carries this sacred tradition forward
+                in the New York area. Each week, devotees gather to pray,
+                sing, meditate, and listen to the teachings of the saints,
+                united in remembrance and faith.
               </p>
               <p>
                 Whether you have practiced for a lifetime or are visiting for the

@@ -6,9 +6,9 @@
 export const siteConfig = {
   name: "Shree Ram Sharnam New Hyde Park",
   shortName: "Shree Ram Sharnam",
-  tagline: "Prayer • Devotion • Community",
+  tagline: "Prayer • Devotion • Satsang",
   description:
-    "Shree Ram Sharnam New Hyde Park — a place for prayer, devotion, satsang, spiritual growth, and community. Join us every Saturday from 9:30 AM to 11:00 AM.",
+    "Shree Ram Sharnam New Hyde Park — a place for prayer, devotion, satsang, and spiritual growth. Join us every Saturday from 9:30 AM to 11:00 AM.",
 
   address: {
     line1: "107 Marcus Avenue",
@@ -74,13 +74,13 @@ export const events = [
     title: "Janmashtami",
     when: "Late Summer",
     description:
-      "Celebrating the birth of Lord Krishna with bhajans, satsang, and community festivities.",
+      "Celebrating the birth of Lord Krishna with bhajans, satsang, and devotional observance.",
   },
   {
     title: "Diwali & Annual Havan",
     when: "Autumn",
     description:
-      "The festival of lights observed with a special havan, prayers for peace and prosperity, and a shared community meal.",
+      "The festival of lights observed with a special havan, prayers for peace and prosperity, and prasad offered in devotion.",
   },
 ] as const
 

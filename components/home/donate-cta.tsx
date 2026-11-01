@@ -18,7 +18,7 @@ export function DonateCTA() {
             <Heart className="size-7" aria-hidden="true" />
           </span>
           <h2 className="mt-6 text-balance font-serif text-3xl font-semibold text-primary-foreground sm:text-4xl">
-            Support Our Spiritual Community
+            Support Our Satsang
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty leading-relaxed text-primary-foreground/90">
             Your generosity helps sustain our satsangs, maintain our space, and

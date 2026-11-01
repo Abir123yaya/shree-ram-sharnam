@@ -1,4 +1,4 @@
-import { Heart, Users, Sparkles } from "lucide-react"
+import { Heart, Sparkles } from "lucide-react"
 import { SectionHeading } from "@/components/section-heading"
 
 const pillars = [
@@ -8,9 +8,9 @@ const pillars = [
     text: "Immerse in the loving remembrance of Ram through prayer, chanting, and meditation.",
   },
   {
-    icon: Users,
-    title: "Community",
-    text: "A welcoming family of devotees supporting one another on the spiritual path.",
+    icon: Sparkles,
+    title: "Satsang",
+    text: "A sacred gathering for remembrance of Ram, prayer, and reflection on the path of devotion."
   },
   {
     icon: Sparkles,

@@ -26,9 +26,9 @@ export function SatsangBanner() {
                 Weekly Satsang &amp; Prayer
               </h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
-                Every week our community gathers to chant the divine name of Ram,
-                sing bhajans, and share in collective prayer. All are warmly
-                welcome, regardless of background or experience.
+                Each week, devotees gather for remembrance of Ram,
+                Amritvani Ji Sankirtan, bhajans, and collective prayer. All are warmly
+                welcome to join the satsang with a sincere heart.
               </p>
 
               <ul className="mt-8 space-y-4">

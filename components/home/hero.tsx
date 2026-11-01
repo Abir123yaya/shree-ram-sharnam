@@ -26,8 +26,8 @@ export function Hero() {
             <span className="block text-primary">New Hyde Park</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
-            A spiritual home for prayer, devotion, and community. Come chant the
-            sacred name of Ram, find inner peace, and grow together in the light
+            A sacred place for prayer, devotion, and satsang. Come chant the
+            holy name of Ram, find inner peace, and deepen your remembrance
             of divine grace.
           </p>
 
